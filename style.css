@@ -1,0 +1,147 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"Poppins",sans-serif;
+color:#333;
+background:linear-gradient(135deg,#fffaf5,#fde8d8,#fff3e0,#f9e4b7);
+background-size:400% 400%;
+animation:gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+header{
+background:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 50px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+position:sticky;
+top:0;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+height:60px;
+}
+
+.logo h1{
+color:#b88a28;
+font-family:"Playfair Display",serif;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+nav a:hover{
+color:#b88a28;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h2{
+font-size:2.8rem;
+font-family:"Playfair Display",serif;
+color:#b88a28;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:1.1rem;
+margin-bottom:25px;
+max-width:600px;
+margin:auto;
+}
+
+.hero button{
+background:linear-gradient(90deg,#d4a537,#b88a28);
+color:white;
+border:none;
+padding:14px 35px;
+border-radius:30px;
+font-size:1rem;
+cursor:pointer;
+}
+
+.hero button:hover{
+transform:translateY(-3px);
+}
+
+.logo-section{
+text-align:center;
+padding:40px 0;
+}
+
+.logo-section img{
+width:220px;
+}
+
+.features{
+text-align:center;
+padding:70px 20px;
+background:rgba(255,255,255,0.7);
+margin:40px 20px;
+border-radius:20px;
+}
+
+.features h3{
+font-size:2rem;
+color:#b88a28;
+margin-bottom:40px;
+font-family:"Playfair Display",serif;
+}
+
+.feature-boxes{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.feature{
+background:white;
+border-radius:15px;
+padding:25px;
+width:240px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.feature h4{
+color:#b88a28;
+margin-bottom:8px;
+}
+
+footer{
+background:#222;
+color:#fff;
+text-align:center;
+padding:25px 0;
+}
+
+footer span{
+color:#f6c44f;
+}
+
+
